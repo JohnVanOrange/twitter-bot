@@ -1,0 +1,13 @@
+{
+    "name": "jvo/twitterbot",
+    "description": "Bot to post fav images to Twitter feed",
+    "authors": [
+        {
+            "name": "Cameron Bulock",
+            "email": "cameron@bulock.com"
+        }
+    ],
+    "require": {
+        "abraham/twitteroauth": "0.5.*"
+    }
+}

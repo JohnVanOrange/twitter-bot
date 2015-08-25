@@ -1,0 +1,9 @@
+<?php
+
+// User account tweets are posted to.
+// Details can be obtained by running authorize.php
+
+define('OAUTH_TOKEN', '');
+define('OAUTH_TOKEN_SECRET', '');
+define('USER_ID', '');
+define('SCREEN_NAME', '');
