@@ -7,7 +7,7 @@ require 'site.conf';
 use Abraham\TwitterOAuth\TwitterOAuth;
 
 $connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET);
-$db = new SQLite3('imagelog.db');
+$db = new SQLite3(__DIR__ . '/imagelog.db');
 $likes = json_decode(file_get_contents(SITE_URL . '/api/image/recentLikes'), TRUE);
 
 foreach ($likes as $like) {
